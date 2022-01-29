@@ -1,0 +1,111 @@
+.navigation {
+  justify-content: center;
+}
+
+.inline-block {
+  display: inline-block;
+  vertical-align: top; 
+  font-size: x-large;
+}
+
+.logo {
+  width: 23%;
+  padding: 1%;
+  text-align: center;
+}
+
+.fade {
+  font-size: xx-large;
+}
+
+nav {
+width: 73%;
+padding: 1%;
+text-align: right;
+font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  width: 50%;
+  margin-left: 20, auto;
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+  cursor: default;
+  font-size: large;
+}
+
+li.active {
+  background: black;
+  color: white;
+}
+
+.heroImg {
+  height: 1800px;
+  width: 1000px;
+  padding: 50px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-size: xx-large;
+  position: relative;
+ margin: 0 auto;
+  
+}
+
+.content {
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+ border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 25px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button:hover {background-color: #a1a7a1}
+
+.button:active {
+  background-color: #d3d01f;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+body {
+  font-family: proxima nova;
+}
+
+footer {
+  background-color: #373738;
+  font-family: 'Open Sans', sans-serif;
+ 
+}
+
+#footernav {
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+}
+
+#intro {
+  font-size: medium;
+}
+
+#info {
+  font-size: medium;
+}
+
+h3 {
+  font-size: 60px;
+}
+
+
